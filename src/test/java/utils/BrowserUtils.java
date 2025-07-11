@@ -21,7 +21,7 @@ public class BrowserUtils {
 
 
     public static void clickJavascript(WebDriver driver, WebElement element){
-git
+
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();", element);
     }
