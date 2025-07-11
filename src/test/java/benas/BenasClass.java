@@ -1,7 +1,7 @@
-package aizadas;
+package benas;
 
-public class AizadasClass {
+public class BenasClass {
     public static void main(String[] args) {
-      
+
     }
 }
