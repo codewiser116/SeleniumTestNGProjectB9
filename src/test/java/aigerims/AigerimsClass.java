@@ -1,6 +1,6 @@
-package salims;
+package aigerims;
 
-public class Salimsclass git {
+public class AigerimsClass {
       public static void main(String[] args) {
 
     }
