@@ -1,4 +1,7 @@
 package salims;
 
-public class Salimsclass git {
+public class Salimsclass  {
+    public static void main(String[] args) {
+
+    }
 }
