@@ -9,6 +9,7 @@ public class BankManagerMainPage{
 
     public BankManagerMainPage(WebDriver driver){
         PageFactory.initElements(driver, this);
+        System.out.println("initialized bank manager web elements");
     }
 
 

@@ -6,7 +6,6 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 public class Hooks {
-
     @BeforeTest
     public void beforeTest(){
         System.out.println("this is before TEEEEEEEST");
@@ -26,5 +25,4 @@ public class Hooks {
     public void afterSuite(){
         System.out.println("AFTER SUITE");
     }
-
 }

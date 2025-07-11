@@ -17,7 +17,7 @@ public class CustomerLoginTests {
     public void verifyCustomerLoggedIn() throws InterruptedException {
         WebDriver driver = Driver.getDriver();
         driver.get(ConfigurationReader.getProperty("loginUrl"));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
         HomePage homePage = new HomePage(driver);
         homePage.customerLoginBtn.click();
