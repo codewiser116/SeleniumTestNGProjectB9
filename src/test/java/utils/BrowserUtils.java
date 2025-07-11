@@ -20,6 +20,7 @@ import java.time.format.DateTimeFormatter;
 public class BrowserUtils {
 
     public static void clickJavaScript(WebDriver driver, WebElement element){
+
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();", element);
     }
