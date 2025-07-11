@@ -1,6 +1,6 @@
-package aigerims;
+package aizadas;
 
-public class AigerimsClass {
+public class AizadasClass {
     public static void main(String[] args) {
 
     }

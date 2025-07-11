@@ -1,6 +1,6 @@
-package aigerims;
+package benas;
 
-public class AigerimsClass {
+public class BenasClass {
     public static void main(String[] args) {
 
     }
