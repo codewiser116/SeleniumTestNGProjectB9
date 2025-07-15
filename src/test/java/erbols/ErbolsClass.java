@@ -8,8 +8,4 @@ public class ErbolsClass {
         System.out.println("Erbol's code NUMBER 2");
 
     }
-
-    public static void main(String[] args) {
-
-    }
 }
