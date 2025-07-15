@@ -19,11 +19,6 @@ import java.time.format.DateTimeFormatter;
 
 public class BrowserUtils {
 
- begimais_branch
-    public static void clickJavaScript(WebDriver driver, WebElement element){
-
-
-    public static void clickJavaScript(WebDriver driver, WebElement element){
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();", element);
     }
